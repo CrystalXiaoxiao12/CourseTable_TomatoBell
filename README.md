@@ -25,7 +25,7 @@ Blog 地址 ：[时间管理大师](https://blog-crystal520.vercel.app/article/c
 
 4、点击导航栏上的“时间管理”模块——>”专注统计”模块查看每日专注时长、每日专注次数。专注时长体现在柱状图上，专注次数体现在折线图上，点击结点可查看具体时间。
 
-![1](D:\Android\CourseTable_TomatoBell\pic\8.png)
+![1](https://github.com/CrystalXiaoxiao12/CourseTable_TomatoBell/raw/master/pic/8.jpg)
 
 # 开发环境
 
