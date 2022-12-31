@@ -37,6 +37,6 @@ gradle plugin version 7.3.1
 
 # 实现效果
 
-![1]("https://github.com/CrystalXiaoxiao12/CourseTable_TomatoBell/tree/master/pic/1.jpg")
+![1](https://github.com/CrystalXiaoxiao12/CourseTable_TomatoBell/raw/master/pic/1.jpg)
 
 ![1]("https://github.com/CrystalXiaoxiao12/CourseTable_TomatoBell/tree/master/pic/2.jpg")
