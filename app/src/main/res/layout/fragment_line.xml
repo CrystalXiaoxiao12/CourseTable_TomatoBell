@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/taskToolbar"
+        layout="@layout/task_toolbar" />
+
+    <TextView
+        android:id="@+id/barLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/taskToolbar"
+        android:layout_marginTop="20dp"
+        android:text="近期专注时长统计"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barLabel"
+        android:layout_centerHorizontal="true">
+
+        <view
+            android:id="@+id/bar_view"
+            class="im.dacer.androidcharts.BarView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/lineLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/horizontalScrollView0"
+        android:text="近期专注次数统计"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineLabel">
+
+        <view
+            android:id="@+id/line_view"
+            class="im.dacer.androidcharts.LineView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp" />
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

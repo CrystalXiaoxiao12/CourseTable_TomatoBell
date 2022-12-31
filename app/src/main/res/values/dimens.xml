@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_font_size">18dp</dimen>
+    <dimen name="title_font_size">25dp</dimen>
+    <dimen name="button_font_size">25dp</dimen>
+</resources>

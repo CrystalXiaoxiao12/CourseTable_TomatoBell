@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/taskToolbar"
+        layout="@layout/task_toolbar" />
+
+    <EditText
+        android:id="@+id/hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hour"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/taskToolbar"
+        android:selectAllOnFocus="true"
+        android:maxLength="2"
+        android:inputType="number"
+        style="@style/EtTheme"/>
+
+
+    <EditText
+        android:id="@+id/minute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hour"
+        android:hint="@string/minute"
+        android:selectAllOnFocus="true"
+        android:maxLength="5"
+        android:inputType="number"
+        style="@style/EtTheme"/>
+
+
+    <Button
+        android:id="@+id/positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minute"
+        android:layout_alignParentEnd="true"
+        android:text="@string/positive"
+        style="@style/BtnTheme"/>
+
+
+</RelativeLayout>

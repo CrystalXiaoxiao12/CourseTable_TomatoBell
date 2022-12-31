@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:id="@+id/time_detail"
+    android:background="@color/colorPrimary"
+    android:padding="30dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/icon_image"
+        android:src="@drawable/dog"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/college"
+        android:text="长安大学 计算机科学与技术系"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_font_size"
+        android:layout_below="@+id/icon_image"
+       />
+
+
+</RelativeLayout>

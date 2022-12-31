@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="250dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_weight="0.16">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="课程详细"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_font_size"/>
+                <Button
+                    android:id="@+id/back_add"
+                    android:background="@drawable/cancle"
+                    android:layout_width="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:background="@drawable/course"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:gravity="center" />
+                <TextView
+                    android:textSize="19dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="课程" />
+                <EditText
+                    android:id="@+id/course_name"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:hint="课程名"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:background="@drawable/teacher"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:gravity="center" />
+                <TextView
+                    android:textSize="19dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="教师" />
+                <EditText
+                    android:id="@+id/teacher_name"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:hint="任课老师"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:background="@drawable/classroom"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:gravity="center" />
+                <TextView
+                    android:textSize="19dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="教室" />
+                <EditText
+                    android:id="@+id/class_room"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:hint="上课教室"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:background="@drawable/week"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:gravity="center" />
+                <TextView
+                    android:textSize="19dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="时间" />
+                <TextView
+                    android:id="@+id/day"
+                    android:textSize="19dp"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="left"
+                    android:text="星期几" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:background="@drawable/time"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:gravity="center" />
+                <TextView
+                    android:textSize="19dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="节次" />
+                <TextView
+                    android:id="@+id/time_information"
+                    android:textSize="19dp"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="left"
+                    android:text="节次" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:textColor="#fff"
+        android:text="确定" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="\n 在课程表界面长按一个课程可以删除它 \n"/>
+
+</LinearLayout>

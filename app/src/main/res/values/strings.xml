@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">时间管理大师</string>
+    <string name="task">锁机专注</string>
+    <string name="list">专注统计</string>
+    <string name="calender">TO DO</string>
+    <string name="Month">月份</string>
+    <string name="taskDescription">任务描述</string>
+    <string name="add_task">添加任务</string>
+    <string name="input_task_name">请输入添加的任务名字</string>
+    <string name="task_name">任务名字</string>
+    <string name="task_desc">任务描述</string>
+    <string name="select_date">选择日期</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="positive">确定</string>
+    <string name="negative">取消</string>
+    <string name="error_hour">小时数不得大于 24</string>
+    <string name="error_minute">分钟数不得大于 86400</string>
+    <string name="error_zero">不可都为零</string>
+    <string name="alert">您确定吗？</string>
+    <string name="alert_hint">在您设定的时间段内手机将被锁定，您将无法操作主屏幕区域，
+        但状态栏和导航栏您仍可正常操作。</string>
+    <string name="check_boot_alarm">打开重启手机保持锁定后重启手机将无法解除锁定，请知悉此风险</string>
+
+    <string name="viewGithub">View on GitHub</string>
+    <string name="reportProblem">Problem Report</string>
+    <string name="viewWebsite">Developer Website</string>
+    <string name="actionSave">Save to Gallery</string>
+
+    <string name="animateX">Animate X</string>
+    <string name="animateY">Animate Y</string>
+    <string name="animateXY">Animate XY</string>
+
+    <string name="actionToggleValues">Toggle Values</string>
+    <string name="actionToggleYValues">Toggle Y-Values</string>
+    <string name="actionToggleXValues">Toggle X-Values</string>
+
+    <string name="actionToggleIcons">Toggle Icons</string>
+    <string name="actionToggleHighlight">Toggle Highlight</string>
+    <string name="actionTogglePinch">Toggle PinchZoom</string>
+    <string name="actionToggleAutoScale">Toggle Auto Scale</string>
+
+    <string name="actionToggleLineValues">Toggle Line Values</string>
+    <string name="actionToggleBarValues">Toggle Bar Values</string>
+    <string name="actionToggleBarBorders">Toggle Bar Borders</string>
+    <string name="actionToggleFilled">Toggle Filled</string>
+    <string name="actionToggleCircles">Toggle Circles</string>
+    <string name="actionToggleCandleShadow">Toggle Shadow Color</string>
+
+    <string name="actionToggleCubic">Toggle Cubic</string>
+    <string name="actionToggleStepped">Toggle Stepped</string>
+    <string name="actionToggleHorizontalCubic">Toggle Horizontal Cubic</string>
+
+    <string name="actionAddEntry">Add Entry</string>
+    <string name="actionFeedMultiple">Add Multiple</string>
+    <string name="actionRemoveEntry">Remove Entry</string>
+    <string name="actionAddDataSet">Add Data Set</string>
+    <string name="actionRemoveDataSet">Remove Data Set</string>
+    <string name="actionClearChart">Clear chart</string>
+
+    <string name="actionTogglePercent">Toggle Percent</string>
+    <string name="actionToggleMinAngles">Toggle Minimum Angles</string>
+    <string name="actionToggleHole">Toggle Hole</string>
+    <string name="actionToggleCurvedSlices">Toggle Curved Slices</string>
+    <string name="actionDrawCenterText">Draw Center Text</string>
+    <string name="actionToggleHighlightCircle">Toggle Highlight Circle</string>
+    <string name="actionToggleRotation">Toggle Rotation</string>
+    <string name="actionToggleSpin">Spin Animation</string>
+
+    <string name="dash">-</string>
+    <string name="scrollViewStart">START OF SCROLLVIEW</string>
+    <string name="scrollViewEnd">END OF SCROLLVIEW</string>
+</resources>
