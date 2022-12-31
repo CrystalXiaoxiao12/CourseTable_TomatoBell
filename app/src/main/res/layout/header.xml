@@ -10,12 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:id="@+id/icon_image"
-        android:src="@drawable/dog"/>
+        android:src="@drawable/me"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/college"
-        android:text="长安大学 计算机科学与技术系"
+        android:text="长安大学 计算机科学与技术"
         android:textColor="@color/white"
         android:textSize="@dimen/common_font_size"
         android:layout_below="@+id/icon_image"
